@@ -1,6 +1,6 @@
 {
   "name": "sort-by-hltb",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A plugin to sort the library by game length according to How Long To Beat",
   "type": "module",
   "scripts": {
@@ -10,13 +10,7 @@
     "check": "pnpx @biomejs/biome check --write"
   },
   "repository": "git+https://github.com/RedHatter/sort-by-hltb.git",
-  "keywords": [
-    "decky",
-    "plugin",
-    "steam-deck",
-    "deck",
-    "hltb"
-  ],
+  "keywords": ["decky", "plugin", "steam-deck", "deck", "hltb"],
   "author": "Ava Johnson <ava.johnson@zohomail.com>",
   "license": "BSD-3-Clause",
   "bugs": "https://github.com/RedHatter/sort-by-hltb/issues",
@@ -40,10 +34,7 @@
   },
   "pnpm": {
     "peerDependencyRules": {
-      "ignoreMissing": [
-        "react",
-        "react-dom"
-      ]
+      "ignoreMissing": ["react", "react-dom"]
     }
   }
 }
