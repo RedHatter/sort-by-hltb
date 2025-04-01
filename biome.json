@@ -7,7 +7,7 @@
   },
   "files": {
     "ignoreUnknown": false,
-    "ignore": []
+    "ignore": [".vscode", "dist", "cli", "out"]
   },
   "formatter": {
     "enabled": true,
